@@ -1,4 +1,4 @@
-# Syntax Error Academy (SEA)
+﻿# Syntax Error Academy (SEA)
 
 A gamified C# learning platform built with **ASP.NET Web Forms**. Students work through levelled quizzes, earn points and coins, climb a leaderboard and spend coins on avatar cosmetics and wallpapers. Instructors write quizzes; administrators approve them and manage the platform.
 
@@ -7,7 +7,7 @@ Group project for **CT050-3-2 Web Applications (WAPP)** at Asia Pacific Universi
 ## Features
 
 ### Student
-- **CTF-style dashboard**: Levels 1–5 in a side rail. Finishing one quiz in a level unlocks the next level.
+- **CTF-style dashboard**: Levels 1â€“5 in a side rail. Finishing one quiz in a level unlocks the next level.
 - **Personal grade roadmap**: an avatar pin slides along a tier track, with a "Level Up!" animation and a coin reward for each tier.
 - **Four question types**: multiple choice, tap-to-match (Duolingo-style), code-token puzzles and essays.
 - **AI features**: essays are marked by AI and students can ask for hints. Both go through n8n webhooks, so the app never holds an AI provider key.
@@ -63,17 +63,17 @@ You can also create a new student account on the Sign Up page.
 ```
 WAPP Assignment.slnx
 WAPP Assignment/
-├── *.aspx / *.aspx.cs        Pages: Student*, Instructor*, Admin*, Quiz, Games, ...
-├── Avatar.cs                 Layered SVG avatar renderer
-├── Wallpaper.cs              Equipped wallpaper lookup (students)
-├── InstructorTheme.cs        Equipped wallpaper lookup (instructors)
-├── Streak.cs                 Daily streak tracking
-├── Security.cs               Password hashing
-├── EssayGrader.cs, AiHint.cs n8n integrations
-├── HintHandler.ashx          JSON endpoint for quiz hints
-├── Styles/                   One stylesheet per area (dashboard, quiz, admin, ...)
-├── Assets/                   Logo, game scripts, grading JS
-└── App_Data/                 SyntaxErrorAcademy.mdf
+â”œâ”€â”€ *.aspx / *.aspx.cs        Pages: Student*, Instructor*, Admin*, Quiz, Games, ...
+â”œâ”€â”€ Avatar.cs                 Layered SVG avatar renderer
+â”œâ”€â”€ Wallpaper.cs              Equipped wallpaper lookup (students)
+â”œâ”€â”€ InstructorTheme.cs        Equipped wallpaper lookup (instructors)
+â”œâ”€â”€ Streak.cs                 Daily streak tracking
+â”œâ”€â”€ Security.cs               Password hashing
+â”œâ”€â”€ EssayGrader.cs, AiHint.cs n8n integrations
+â”œâ”€â”€ HintHandler.ashx          JSON endpoint for quiz hints
+â”œâ”€â”€ Styles/                   One stylesheet per area (dashboard, quiz, admin, ...)
+â”œâ”€â”€ Assets/                   Logo, game scripts, grading JS
+â””â”€â”€ App_Data/                 SyntaxErrorAcademy.mdf
 ```
 
 ## Notes
@@ -84,4 +84,5 @@ WAPP Assignment/
 - **Tan Ee Xin**: Student module
 - Wang Jim Loong
 - Tay Boon Tao
-- Wong Zhi Yoong
+- Yeoh Yoong Ning
+
