@@ -81,8 +81,9 @@ WAPP Assignment/
 - This is a coursework project and is not hardened for production.
 
 ## Team
-- **Tan Ee Xin**: Student module
+- **Tan Ee Xin**
 - Wang Jim Loong
 - Tay Boon Tao
 - Yeoh Yoong Ning
+
 
